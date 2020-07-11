@@ -1,6 +1,6 @@
 spring:
   mail:
-    host: smtp.163.com
+    host: smtp.qq.com
     username: 13220371107@163.com
     password: ZOLMZPMAVKMQPAFO
     default-encoding: UTF-8
