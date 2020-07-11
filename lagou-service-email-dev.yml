@@ -11,3 +11,9 @@ spring:
           starttls:
             enable: true
             required: true
+lagou:
+  mail:
+    content:
+      verifyCode:
+        topic: 拉勾教育注册邮件通知
+        content: <h1>欢迎注册拉勾教育，您的注册验证码为：{{verifyCode}}, 祝您学习愉快!</h1>
