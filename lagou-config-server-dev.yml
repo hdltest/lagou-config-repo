@@ -1,0 +1,4 @@
+spring:
+  application:
+    name: lagou-config-server
+  
