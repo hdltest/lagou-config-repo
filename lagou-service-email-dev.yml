@@ -24,7 +24,7 @@ lagou:
     properties:
       mail:
         smtp:
-          auth: true
+          auth: false
           starttls:
             enable: true
             required: true
