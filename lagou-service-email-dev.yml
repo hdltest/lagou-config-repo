@@ -10,7 +10,7 @@ spring:
           auth: true
           starttls:
             enable: true
-            required: true
+            required: false
 lagou:
   mail:
     content:
@@ -18,13 +18,13 @@ lagou:
         topic: 拉勾教育注册邮件通知2
         content: <h1>欢迎注册拉勾教育，您的注册验证码为：{{verifyCode}}, 祝您学习愉快!</h1>
     host: smtp.163.com
-    username: 1322037117@163.com
+    username: 13220371107@163.com
     password: ZOLMZPMAVKMQPAFO
     default-encoding: UTF-8
-    properties:
+    javaMailProperties:
       mail:
         smtp:
-          auth: false
+          auth: true
           starttls:
             enable: true
             required: true
