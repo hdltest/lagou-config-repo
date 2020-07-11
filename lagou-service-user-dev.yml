@@ -11,3 +11,15 @@ spring:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl  #避免将驼峰命名转换为下划线命名
   
+  # rabbitmq 配置
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"  # 也可以暴露所有的端口
