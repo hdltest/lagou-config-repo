@@ -1,0 +1,13 @@
+spring:
+  mail:
+    host: smtp.163.com
+    username: 13220371107@163.com
+    password: ZOLMZPMAVKMQPAFO
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
