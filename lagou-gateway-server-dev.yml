@@ -1,0 +1,4 @@
+lagou:
+  api:
+    register:
+      path: /user/register/{email}/{password}/{code}
