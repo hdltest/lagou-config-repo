@@ -11,6 +11,12 @@ spring:
           starttls:
             enable: true
             required: false
+    # rabbitmq 配置
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
 lagou:
   mail:
     content:
