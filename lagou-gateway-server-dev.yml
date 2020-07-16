@@ -15,4 +15,4 @@ management:
 lagou:
   api:
     register:
-      path: /user/register/{email}/{password}/{code}
+      path: /user/register/*/*/*
