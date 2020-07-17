@@ -16,3 +16,7 @@ lagou:
   api:
     register:
       path: /user/register/*/*/*
+    register:
+      explosion:
+        time: 1   # ip防爆刷时间阈值
+        count: 2  # ip防爆刷次数阈值
